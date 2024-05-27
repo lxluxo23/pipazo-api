@@ -5,7 +5,10 @@ const app = express();
 const port = 8000;
 
 app.get('/', (req, res) => {
-  res.json([
+  res.json(
+    "status": true,
+    "data": 
+    [
     {
       "id": "1",
       "name": "John"
